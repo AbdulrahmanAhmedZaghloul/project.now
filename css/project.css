@@ -1,0 +1,465 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navv {
+    width: 100%;
+    height: 50px;
+    min-width: 15px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0, 0);
+}
+
+.navaa {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+}
+
+.navv a {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+
+    width: 15%;
+    position: relative;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-content h6 span {
+    color: #8e7754;
+    font-size: 60px;
+}
+
+.header-content h6 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+}
+
+.header-content h1 span {
+    font-size: 60px;
+    color: #8e7754;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: rgb(255, 255, 255);
+    bottom: -22px;
+    transition: 2s;
+}
+
+a:hover {
+    color: rgb(170, 158, 91);
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+.header {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.header-content {
+    width: 40%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 240px;
+}
+
+.header-content p {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #fff;
+}
+
+.header-content button {
+    font-style: italic;
+    color: white;
+    margin-top: 30px;
+    border: solid 1px rgb(207, 186, 159);
+    background-color: #8e7754;
+    transition: all 2s;
+    height: 70px;
+    font-size: 25px;
+}
+
+button:hover {
+    color: #ffe604;
+    background-color: rgba(75, 42, 42, 0.0);
+}
+
+.contant {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.contant p {
+    color: rgb(247, 162, 53);
+}
+
+.contant h1 {
+    color: rgb(247, 162, 53);
+}
+
+.con {
+    padding: 20px;
+    width: 25%;
+    float: left;
+}
+
+.con img {
+    width: 100%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.sect {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.sect img {
+    width: 50%;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.test {
+    width: 40%;
+    float: right;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+.test h6 {
+    font-weight: lighter;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-size: 45px;
+}
+
+.dre {
+    width: 250px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.test p {
+    color: #8e7754;
+    text-align: center;
+    font: 1.1em sans-serif;
+}
+
+.sect2 {
+    margin-top: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.sect2 img {
+    width: 50%;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.test2 {
+    width: 40%;
+    float: left;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+.test2 h6 {
+    font-weight: lighter;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-size: 45px;
+}
+
+
+
+.test2 p {
+    color: #8e7754;
+    text-align: center;
+    font: 1.1em sans-serif;
+}
+
+.our {
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.our p {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: #8a8a5c;
+    font-size: 17px;
+}
+
+.clr {
+    clear: both;
+}
+
+.map {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.map iframe {
+    width: 50%;
+    margin: 50px;
+    float: right;
+}
+
+.test3 {
+    width: 40%;
+    float: left;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+.test3 h6 {
+    font-weight: lighter;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-size: 45px;
+}
+
+
+.test3 p {
+    color: #8e7754;
+    font: 1.1em sans-serif;
+    margin: 50px auto;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+.row {
+    width: 100%;
+    padding: 20px 0;
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    background-color: #8e7754;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    width: 25%;
+    height: 35vh;
+    margin-right: 35px;
+}
+
+.blog h5 {
+    width: 100%;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.blog p {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.bleg {
+    width: 25%;
+    height: 35vh;
+    background-color: #8e7754;
+    margin-right: 35px;
+}
+
+.bleg h5 {
+    width: 100%;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.reww {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.brde {
+    width: 200px;
+    height: 0.5px;
+    background-color: rgba(8, 8, 8, 0.5);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    margin: 15px 0 0 5px;
+    list-style-type: none;
+}
+
+ul.li {
+    font-size: 15px;
+}
+
+.end {
+    width: 100%;
+    height: 35%;
+    background-color: #ad926a;
+    text-align: center;
+    align-items: center;
+}
+
+.end img {
+    width: 25%;
+    height: 105;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: #aa8769;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    transition: all 2.5s;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.icon2 {
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: #aa8769;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    transition: all 2.5s;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.icon1:hover {
+    background-color: rgb(17, 26, 145);
+}
+
+.icon2:hover {
+    background-color: rgb(97, 22, 22);
+}
+
+.me {
+    width: 100%;
+    height: 50%;
+    background: #8a8a5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imme img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.imme {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.meh {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.meh span {
+    color: #f8f8f8;
+}
+
+.dree {
+    width: 100px;
+    height: 0.5px;
+    background-color: rgba(8, 8, 8, 0.5);
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.clr {
+    clear: both;
+}
